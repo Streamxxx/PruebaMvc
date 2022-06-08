@@ -1,4 +1,4 @@
-<?php require "/vista/layout/header.php";?>
+<?php require "vista/layout/header.php";?>
 
 <section class="vh-100">
   <div class="container py-5 h-100">
@@ -41,6 +41,6 @@
         <p class="text-danger"><?php echo (isset($_GET['msg'])) ? $_GET['msg'] : "" ?></p>
       </div>
     </div>
-  </div>
-</section>
-<?php require "vista/layout/footer.php";?>
+  </div><?php require "vista/layout/footer.php";?>
+</section> 
+

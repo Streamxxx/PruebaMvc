@@ -2,7 +2,7 @@
 session_start();
 require "modelo/login.php ";
 class loginController{
-    public function index(){
+    public static function index(){
         if(isset($_SESSION['login'])){
             header('location:'.urlsite);
         }
